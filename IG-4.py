@@ -18,6 +18,7 @@ try:
     os.remove('IG-Checker-3.py')
     os.remove('IG-Checker-1.py')
     os.remove('IG-Checker-2.py')
+    os.remove('IG-Checker.py')
     print('Done remove ...')
 except FileNotFoundError as error:
     pass
